@@ -10,3 +10,4 @@ Documentation is at:
 > https://openweathermap.org/weather-conditions  
 
 3. Please make it so that the user can input the city name on the input element
+4. The **Icons** are _optional_.
