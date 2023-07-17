@@ -3,6 +3,8 @@ import Clock from 'react-clock';
 import { useEffect, useState } from 'react';
 import 'react-clock/dist/Clock.css';
 
+// Documentation on icons: https://openweathermap.org/weather-conditions
+
 function Card() {
   const [clock, setClock] = useState(new Date());
   const [location, setLocation] = useState("");
@@ -15,12 +17,11 @@ function Card() {
     };
   }, []);
 
-  const handleChange = (event) => {
+  const handleChange = (event: any) => {
     setLocation(event.target.value);
   };
 
-  const handleLocation = () => {
-    console.log(location);
+  const handleLocation = async () => {
   };
 
   return (
