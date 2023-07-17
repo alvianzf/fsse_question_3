@@ -9,6 +9,4 @@ Endpoint:
 Documentation is at:  
 > https://openweathermap.org/weather-conditions  
 
-API KEY is inside the `.env.example` file. Please change the name into .env
-
 3. Please make it so that the user can input the city name on the input element
